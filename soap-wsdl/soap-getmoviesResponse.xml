@@ -1,0 +1,18 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    <soap:Body>
+        <ns2:getMoviesResponse xmlns:ns2="http://ws.movie/">
+            <return>
+                <duration>130</duration>
+                <id>1</id>
+                <name>Star Wars II</name>
+                <year>1999</year>
+            </return>
+            <return>
+                <duration>130</duration>
+                <id>2</id>
+                <name>No Time To Die</name>
+                <year>2021</year>
+            </return>
+        </ns2:getMoviesResponse>
+    </soap:Body>
+</soap:Envelope>

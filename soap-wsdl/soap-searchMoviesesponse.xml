@@ -1,0 +1,18 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    <soap:Body>
+        <ns2:searchMoviesResponse xmlns:ns2="http://ws.movie/">
+            <return>
+                <duration>130</duration>
+                <id>1</id>
+                <name>Star Wars IV</name>
+                <year>1999</year>
+            </return>
+            <return>
+                <duration>130</duration>
+                <id>4</id>
+                <name>Star Wars V</name>
+                <year>2021</year>
+            </return>
+        </ns2:searchMoviesResponse>
+    </soap:Body>
+</soap:Envelope>

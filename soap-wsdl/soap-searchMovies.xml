@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <ws:searchMovies xmlns:ws="http://ws.movie/">
+      <partTitle>Star</partTitle>
+      <arg1>100</arg1>
+    </ws:searchMovies>
+  </soap:Body>
+</soap:Envelope>

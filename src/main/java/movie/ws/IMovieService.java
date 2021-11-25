@@ -5,6 +5,7 @@ import java.util.List;
 import movie.model.Movie;
 import javax.jws.WebService;
 import javax.jws.WebMethod;
+import javax.jws.WebParam;
 
 @WebService
 public interface IMovieService {
@@ -13,6 +14,8 @@ public interface IMovieService {
 	List<Movie> getMovies();
 	
 	@WebMethod
-	List<Movie> searchMovies(String partTitle, Integer year, Integer yearMin, Integer yearMax);
+	List<Movie> searchMovies(
+			@WebParam(name = "partTitle", partName = "partTitle") String partTitle, 
+			Integer year, Integer yearMin, Integer yearMax);
 
 }
